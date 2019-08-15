@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="title">Title</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <div class="aFunnyOpen">
+      <h1>An Explanation of Short</h1>
+      <br>
+      <h1>...i.e.</h1>
+      <br>
+      <h1>A Short Explanation</h1>
+    </div>
+    <div>
+      <p id="discription">Being the member of a pair of similarly spelled vowel or vowel-containing sounds that is descended from a vowel that was short in duration but is no longer so and that does not necessarily have duration as its chief distinguishing feature.</p>
+    </div>
+    
+    <div class="survey">
+      <form id="survey-form">
+        <label id="name-label" for="name">First Name:</label>
+        <input id="name" type:"text" placeholder="john"/>
+        </br>
+        </br>
+        <label for="nothingYouCareAbout">Last Name:</label>
+        <input id="nothingYouCareAbout" type="text" placeholder="smith"/>
+        </br>
+        </br>
+        <label id="email-label" for="email">Email Address:</label>
+        <input id="email" type="email" placeholder="john + '' + smith@gmail.com" required/>
+        </br>
+        </br>
+        <label id="number-label" for="number">Choose a number between 1 and 100</label>
+        <input id="number" type="number" min="1" max="100" placeholder="37"/>
+        <h2>Select a number from the dropdown menu</h2>
+        <select id="dropdown">
+          <option>one</option>
+          <option>two</option>
+          <option>three</option>
+          <option>four</option>
+          <option>five</option>
+          <option>six</option>
+        </select>
+        <br>
+        <br>
+        <input type="radio" name="grouped">radio on<br>
+        <input type="radio" name="grouped" checked>radio off<br>
+        <br>
+        <br>
+        <h2>How do you feel about programming now?</h2>
+        <input type="checkbox" name="choose-me" value="Yes" checked> I feel comfortable looking things up on the internet<br>
+        <input type="checkbox" name="not-yet" value="!="> I understand everything that I just learned<br>
+        <input type="checkbox" name="third-place" value="null"> I have a inkling<br>
+        <h2 id="comments">Comments?</h2>
+      
+        <div class="commentSection">
+          <textarea placeholder="Please leave your comments here to let me know how I can improve this site"></textarea>
+        </div>
+        <br>
+        <br>
+        <button id="submit">Submit</button>        
+      </form>
+    </div>
+    <script src="./file.js"></script>
+  </body>
+</html>
